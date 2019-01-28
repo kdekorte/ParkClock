@@ -9,11 +9,14 @@ function createWindow() {
                 nodeIntegration: false   
             }})
 
-    win.loadFile('index.html')
+    win.setResizable(false);
 
+    win.loadFile('index.html')
     win.on('closed', () => {
         win = null;
     })
+
+    win.reload();
 }
 
 app.on('ready', createWindow);

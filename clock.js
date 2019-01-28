@@ -24,7 +24,7 @@ function updateclock(dom){
     $hands.filter('.second').css({transform: 'rotate(' + second_as_degree + 'deg)' })
     setTimeout(function() {
         updateclock(dom);
-    }, 600)
+    }, 120)
 }
 
 $().ready(function() {

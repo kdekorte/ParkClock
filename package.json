@@ -1,0 +1,25 @@
+{
+  "name": "parkclock",
+  "version": "1.0.0",
+  "description": "App that displays analog clocks of all the Disney Parks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdekorte/ParkClock.git"
+  },
+  "keywords": [
+    "electron",
+    "node",
+    "disney"
+  ],
+  "author": "Kevin DeKorte",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/kdekorte/ParkClock/issues"
+  },
+  "homepage": "https://github.com/kdekorte/ParkClock#readme"
+}
